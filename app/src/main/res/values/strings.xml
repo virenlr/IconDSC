@@ -1,0 +1,110 @@
+<resources>
+    <!-- Application name -->
+    <string name="app_name">IconDSC</string>
+
+    <!-- Introduction -->
+    <string name="christ_logo">CHRIST logo</string>
+    <string name="intro_header">Welcome to IconDSC</string>
+    <string name="intro_body_one">We feel honored to introduce to you and invite you for the 2019 International Conference on Data Science and Communication (IconDSC) in association with IEEE, IEEE Communication Society (Bangalore Section), Computer Society of India (Division–IV) and Kyungpook National University, scheduled on 1–2 March 2019 at Faculty of Engineering, CHRIST (Deemed to be University), Bangalore, India.</string>
+    <string name="intro_body_two">2019 International Conference on Data Science and Communication (IconDSC) solicit papers in the areas of Internet of Things, Data Science, Network and Security, Software Engineering, Signal Processing, Communication, Embedded Systems, Electrical Systems, Smart Grids and Internet of Energy (loE), Sustainable Energy Systems and all the relevant disciplines to a common forum. Original, unpublished research papers highlighting specific research domains from all viewpoints are invited from delegates all over the globe.</string>
+    <string name="about_body">The IconDSC envisions its role towards enhancement of research in the area of data science and communication through collaboration, innovative methodologies and connections throughout the globe. In this direction, the mission is to deliver and coordinate, enact and publicize research and resources that enhance the impact and growth of education pertaining to the theme of the conference. The primary goal of the conference is to promote research and developmental, promote scientific information interchange between researchers, developers, engineers, students, and practitioners working in India and abroad.</string>
+    <string name="intro_button_start">Start</string>
+    <string name="back_to_exit">Press back one more time to exit</string>
+
+    <!-- Screen titles -->
+    <string name="alerts">Alerts</string>
+    <string name="schedule">Schedule</string>
+    <string name="speaker_details">Speaker details</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+
+    <!-- Authentication -->
+    <string name="Sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="first_time">If this is your first time using the app, please sign up with your email address. Should you choose to create an account, you are agreeing to the usage of your data as noted in our privacy policy. Please click on this card to know more.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password_enter_email">Please enter the email address with which you registered with us. The password reset link will be sent to you via email.</string>
+    <string name="send_email">Send email</string>
+    <string name="sign_up_introduction">The IconDSC app allows you to enjoy a smooth experience throughout the course of the programme. We hope that you will have a pleasant experience with us, and look forward to your feedback and suggestions during the course of the event.</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="organization">Organization</string>
+    <string name="paper_id_sign_up">Paper ID (if applicable)</string>
+    <string name="enter_registered_email_address">Please enter your registered email address</string>
+    <string name="please_enter_password">Please enter your password</string>
+    <string name="authentication_failed">Authentication failed.</string>
+    <string name="email_not_registered">Your email is not registered with us.</string>
+    <string name="email_sent">Email sent.</string>
+    <string name="are_you_sure_you_want_to_exit_the_signup_process">Are you sure you want to exit the sign up process?</string>
+    <string name="warning">Warning</string>
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_enter_your_first_name">Please enter your first name</string>
+    <string name="please_enter_your_last_name">Please enter your last name</string>
+    <string name="please_enter_a_valid_email_address">Please enter a valid email address</string>
+    <string name="please_enter_a_password">Please enter a password</string>
+    <string name="password_must_be_more_than_7_characters">Password must be more than 7 characters</string>
+    <string name="please_enter_your_password_again">Please enter your password again</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="please_enter_a_valid_phone_number">Please enter a valid phone number</string>
+    <string name="please_enter_your_organization_name">Please enter your organization name</string>
+    <string name="account_already_exists">Account already exists.</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_header">International Conference on Data Science and Communication</string>
+    <string name="nav_drawer_subtitle">March 1st and 2nd, 2019</string>
+
+    <!-- Alerts and Notifications -->
+    <string name="channel_name">Alerts</string>
+    <string name="channel_description">Channel for all official alerts and messages during the programme</string>
+    <string name="channel_id">alerts_channel</string>
+    <string name="error_fetching_alerts">Error fetching alerts</string>
+
+    <!-- Paper Presentation -->
+    <string name="paper_presentation">Paper Presentation</string>
+    <string name="google_maps_needs_to_be_installed">Google Maps needs to be installed first.</string>
+    <string name="schedule_introduction">To know more about each of the paper presentation sessions, you can click on them in the schedule given below. You can click on any of the venue names to receive directions via Google Maps.</string>
+
+    <string name="auditorium_block_i">Auditorium, Block-I</string>
+    <string name="rock_villa_pu_block">Rock Villa, PU Block</string>
+    <string name="auditorium_pu_block">Auditorium, PU Block</string>
+    <string name="open_auditorium">Open Auditorium</string>
+    <string name="north_canteen">North Canteen</string>
+    <string name="south_canteen">South Canteen</string>
+
+    <!-- Speaker Details -->
+    <string name="image_of_the_speaker">Image of the speaker</string>
+
+    <!-- Feedback -->
+    <string name="feedback_introduction">We would love to have your honest feedback on the entire programme. Please fill the form below. You can change your feedback at any time during the event.</string>
+    <string name="feedback_header">Feedback Questionnaire for IconDSC</string>
+    <string name="feedback_question_one">1. Please rate your overall satisfaction with the conference.</string>
+    <string name="feedback_question_two">2. Please rate your overall satisfaction with the reviewing of papers.</string>
+    <string name="feedback_question_three">3. Please rate your overall satisfaction with the panel sessions.</string>
+    <string name="feedback_question_four">4. Please rate your overall satisfaction with the keynote speakers.</string>
+    <string name="feedback_question_five">5. Please rate your overall satisfaction with the registration, reception and hospitality.</string>
+    <string name="feedback_question_six">6. Please rate your overall satisfaction with the facilities.</string>
+    <string name="feedback_question_seven">7. Please rate your overall satisfaction with the schedule of the conference.</string>
+    <string name="feedback_question_eight">8. Which elements of the event did you like most?</string>
+    <string name="feedback_question_nine">9. What, if anything, did you dislike about this event?</string>
+    <string name="feedback_question_ten">10. Is there anything we could have done to make your event experience easier or more convenient?</string>
+    <string name="suggestions_and_comments">Suggestions and comments.</string>
+    <string name="feedback_already_submitted_making_an_edit">Feedback already submitted. Making an edit?</string>
+    <string name="submit">Submit</string>
+    <string name="thank_you_for_your_feedback">Thank you for your feedback.</string>
+
+    <!-- Sign Out -->
+    <string name="sign_out_introduction">We hope to see you again soon! If you are leaving because of any technical difficulties with the application, please do not hesitate to let us know.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="are_you_sure_you_want_to_sign_out">Are you sure you want to sign out of the application? You can sign back in at any time.</string>
+
+    <!-- Paper Item -->
+    <string name="paper">Paper</string>
+    <string name="room">Room</string>
+    <string name="time">Time</string>
+
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/feedback_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/feedback_progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateOnly="true"
+                android:visibility="gone" />
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/colorPrimaryDark">
+
+                <TextView
+                    style="@style/StandardTextBody"
+                    android:paddingBottom="5dp"
+                    android:text="@string/feedback_introduction" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView style="@style/StandardCardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/SpecialTextHeader"
+                        android:text="@string/feedback_header" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_one" />
+
+                    <RatingBar
+                        android:id="@+id/feedback_question_one"
+                        style="@style/StandardRatingBar" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_two" />
+
+                    <RatingBar
+                        android:id="@+id/feedback_question_two"
+                        style="@style/StandardRatingBar" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_three" />
+
+                    <RatingBar
+                        android:id="@+id/feedback_question_three"
+                        style="@style/StandardRatingBar" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_four" />
+
+                    <RatingBar
+                        android:id="@+id/feedback_question_four"
+                        style="@style/StandardRatingBar" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_five" />
+
+                    <RatingBar
+                        android:id="@+id/feedback_question_five"
+                        style="@style/StandardRatingBar" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_six" />
+
+                    <RatingBar
+                        android:id="@+id/feedback_question_six"
+                        style="@style/StandardRatingBar" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_seven" />
+
+                    <RatingBar
+                        android:id="@+id/feedback_question_seven"
+                        style="@style/StandardRatingBar" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_eight" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/feedback_question_eight"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapSentences|textMultiLine" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_nine" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/feedback_question_nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapSentences|textMultiLine" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/feedback_question_ten" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/feedback_question_ten"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapSentences|textMultiLine" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="@string/suggestions_and_comments" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/feedback_question_final"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapSentences|textMultiLine" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <ProgressBar
+                android:id="@+id/feedback_submitted_progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateOnly="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/feedback_already_submitted_text_view"
+                style="@style/SpecialTextHeader"
+                android:text="@string/feedback_already_submitted_making_an_edit"
+                android:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/submit_feedback_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/submit"
+                android:textColor="@color/textWhite" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

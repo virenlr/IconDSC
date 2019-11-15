@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="StandardCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/colorAccent</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="StandardTextHeader">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/textBlack</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SpecialTextHeader" parent="StandardTextHeader">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="StandardTextBody" parent="StandardTextHeader">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="LocationButton" parent="@style/Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="icon">@drawable/ic_location_on</item>
+        <item name="iconSize">28dp</item>
+        <item name="iconTint">@color/colorPrimary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SpecialLocationButton" parent="LocationButton">
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="iconTint">@color/backgroundWhite</item>
+    </style>
+
+    <style name="StandardRatingBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:numStars">5</item>
+        <item name="android:scaleX">.75</item>
+        <item name="android:scaleY">.75</item>
+        <item name="android:stepSize">1</item>
+    </style>
+
+    <style name="CustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

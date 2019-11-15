@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/speakers_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/speaker_card_1"
+                style="@style/StandardCardView"
+                android:transitionName="speaker_card"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/speaker_image_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_speaker_one"
+                            android:transitionName="speaker_image"
+                            tools:targetApi="lollipop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/StandardTextHeader"
+                            android:text="Dr. Aynur Ünal" />
+
+                        <TextView
+                            style="@style/StandardTextBody"
+                            android:text="Founder and Chairman of Board, Digital Monozukuri, Gurgaon, Haryana, India" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/speaker_card_2"
+                style="@style/StandardCardView"
+                android:transitionName="speaker_card"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/speaker_image_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_speaker_two"
+                            android:transitionName="speaker_image"
+                            tools:targetApi="lollipop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/StandardTextHeader"
+                            android:text="Dr. Dong Seog Han" />
+
+                        <TextView
+                            style="@style/StandardTextBody"
+                            android:text="Professor at the School of Electronics Engineering, Kyungpook National University (KNU), Daegu, Korea; Standing Director, Korean Institute of Communications and Information Sciences (KICS)" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/speaker_card_3"
+                style="@style/StandardCardView"
+                android:transitionName="speaker_card"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/speaker_image_three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_speaker_three"
+                            android:transitionName="speaker_image"
+                            tools:targetApi="lollipop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/StandardTextHeader"
+                            android:text="Dr. A K Nayak" />
+
+                        <TextView
+                            style="@style/StandardTextBody"
+                            android:text="Director Indian Institute of Business Management" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/speaker_card_4"
+                style="@style/StandardCardView"
+                android:transitionName="speaker_card"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/speaker_image_four"
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_speaker_four"
+                            android:transitionName="speaker_image"
+                            tools:targetApi="lollipop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/StandardTextHeader"
+                            android:text="Dr. Damodran Subramanian" />
+
+                        <TextView
+                            style="@style/StandardTextBody"
+                            android:text="Managing Director, SAFRAN Engineering Services, India" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/speaker_card_5"
+                style="@style/StandardCardView"
+                android:transitionName="speaker_card"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/speaker_image_five"
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_margin="5dp"
+                            android:src="@drawable/ic_speaker_five"
+                            android:transitionName="speaker_image"
+                            tools:targetApi="lollipop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/StandardTextHeader"
+                            android:text="Dr. Navin Kumar" />
+
+                        <TextView
+                            style="@style/StandardTextBody"
+                            android:text="Bangalore IEEE ComSoc Chairperson" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

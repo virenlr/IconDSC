@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "905650963691",
+    "firebase_url": "https://international-conference-25a4f.firebaseio.com",
+    "project_id": "international-conference-25a4f",
+    "storage_bucket": "international-conference-25a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905650963691:android:aa6d7d8ecf52ae47",
+        "android_client_info": {
+          "package_name": "com.lukehere.app.icondsc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905650963691-9q8vd4ki52sk8vbjjrc32dfrsqnhfqqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTYgxwtk9TDKCHQjrsR1FH_RwcD6F6HeE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/schedule_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/colorPrimaryDark">
+
+                <TextView
+                    style="@style/StandardTextBody"
+                    android:paddingBottom="5dp"
+                    android:text="@string/schedule_introduction" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                style="@style/SpecialTextHeader"
+                android:text="Day 1 (March 1st, 2019)"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView style="@style/StandardCardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_one_button"
+                        style="@style/LocationButton"
+                        android:text="@string/auditorium_block_i" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Golden Jubilee Video (9:20-9:25)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Lighting of the Lamp + Prayer Song (9:25\-9:35)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Welcome Address (9:35\-9:40)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Presidential Address (9:40\-9:50)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Conference Briefing (9:50\-9:55)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Introduction of Chief Guest, Dr. Aynur Ünal (9:55\-10:00)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Address by Dr. Aynur Ünal (10:00\-10:40)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Release of Book of Abstracts (10:40\-10:45)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Vote of Thanks and National Anthem (10:45\-10:55)" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/strokeGreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_two_button"
+                        style="@style/LocationButton"
+                        android:text="@string/auditorium_block_i" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Tea Break (10:55\-11:10)"
+                        android:textColor="@color/textBlack" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView style="@style/StandardCardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_three_button"
+                        style="@style/LocationButton"
+                        android:text="@string/auditorium_block_i" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Introduction of Dr. Dong Seog Han (11:10\-11:15)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Keynote Address by Dr. Dong Seog Han (11:15\-12:00)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Video Technical Talk Dr Atulya Nagar (12:00\-12:25)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Vote of Thanks (12:25\-12:30)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Group Photograph (In Front of Block-I)" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/strokeGreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_four_button"
+                        style="@style/LocationButton"
+                        android:text="@string/north_canteen" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Lunch Break (12:30\-13:30)"
+                        android:textColor="@color/textBlack" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/parallel_paper_presentation_card_1"
+                style="@style/StandardCardView"
+                app:cardBackgroundColor="@color/colorAccent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_five_button"
+                        style="@style/SpecialLocationButton"
+                        android:text="@string/rock_villa_pu_block" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Paper Presentation (13:30\-15:30)"
+                        android:textColor="@color/textWhite" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/strokeGreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_six_button"
+                        style="@style/LocationButton"
+                        android:text="@string/rock_villa_pu_block" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Hi-Tea and Networking (15:30\-16:00)"
+                        android:textColor="@color/textBlack" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView style="@style/StandardCardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_seven_button"
+                        style="@style/LocationButton"
+                        android:text="@string/auditorium_pu_block" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Introduction of Dr. A K Nayak (16:00\-16:05)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Technical Talk by Dr. A K Nayak (16:05\-16:40)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Vote of Thanks (16:40\-16:45)" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/strokeGreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_eight_button"
+                        style="@style/LocationButton"
+                        android:text="@string/open_auditorium" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Cultural Program (17:30\-19:30)" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/strokeGreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_nine_button"
+                        style="@style/LocationButton"
+                        android:text="@string/north_canteen" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Banquet Dinner (19:30 Onward)" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                style="@style/SpecialTextHeader"
+                android:text="Day 2 (March 2nd, 2019)"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView style="@style/StandardCardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_ten_button"
+                        style="@style/LocationButton"
+                        android:text="@string/auditorium_block_i" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Introduction of Dr. Damodran (8:55\-9:00)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Keynote Address by Dr. Damodran (9:00\-9:45)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Introduction of Dr. Navin Kumar (9:45\-9:50)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Keynote Address by Dr. Navin Kumar (9:50\-10:30)" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                app:strokeColor="@color/strokeGreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_eleven_button"
+                        style="@style/LocationButton"
+                        android:text="@string/auditorium_block_i" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Tea Break (10:30\-11:00)"
+                        android:textColor="@color/textBlack" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/parallel_paper_presentation_card_2"
+                style="@style/StandardCardView"
+                app:cardBackgroundColor="@color/colorAccent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_twelve_button"
+                        style="@style/SpecialLocationButton"
+                        android:text="@string/auditorium_block_i" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Paper Presentation (11:00\-12:00)"
+                        android:textColor="@color/textWhite" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView style="@style/StandardCardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_thirteen_button"
+                        style="@style/LocationButton"
+                        android:text="@string/auditorium_block_i" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Valedictory Speech (12:00\-12:05)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Post Conference Video (12:05\-12:10)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Certificate Distribution (12:10\-12:25)" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:text="Vote of Thanks and University Anthem (12:25\-12:30)" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/StandardCardView"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/strokeGreen">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location_fourteen_button"
+                        style="@style/LocationButton"
+                        android:text="@string/south_canteen" />
+
+                    <TextView
+                        style="@style/StandardTextBody"
+                        android:layout_marginTop="0dp"
+                        android:text="Networking Lunch (12:30\-13:30)"
+                        android:textColor="@color/textBlack" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
